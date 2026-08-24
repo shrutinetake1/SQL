@@ -9,4 +9,4 @@ with department as(
 
 select Department, Employee, Salary 
 from department 
-where rankedsalary= 1 or rankedsalary = 2 or rankedsalary =3;
+where rankedsalary in (1,2,3);
